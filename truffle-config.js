@@ -91,11 +91,11 @@ module.exports = {
     // },
     //
     mumbai: {
-      provider: () => new HDWalletProvider(MNEMONIC, `https://rpc-mumbai.maticvigil.com`),
+      provider: () => new HDWalletProvider(MNEMONIC, `https://matic-mumbai.chainstacklabs.com`),
       network_id: 80001,
       confirmations: 2,
       timeoutBlocks: 200,
-      skipDryRun: true
+      skipDryRun: true,
     }
     // Useful for private networks
     // private: {
